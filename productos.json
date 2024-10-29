@@ -1,0 +1,59 @@
+{
+    "productos": [
+      {
+        "nombre": "Postre",
+        "descripcion": "Un postre de leche de 2 capas y una base de gelatina.",
+        "precio": "1.5",
+        "imagen": "./img/Postre1.jpeg"
+      },
+      {
+        "nombre": "Donas",
+        "descripcion": "Donas fritas con cobertura de chocolate.",
+        "precio": "2.5",
+        "imagen": "./img/Donas.jpeg"
+      },
+      {
+        "nombre": "Harlekin",
+        "descripcion": "Postre preparado con 3 leches y trozitos de gelatina de diferentes sabores.",
+        "precio": "5",
+        "imagen": "./img/Harlekin.webp"
+      },
+      {
+        "nombre": "Pudin de chocolate",
+        "descripcion": "Pudin cremoso de chocolate con cobertura de crema.",
+        "precio": "2.5",
+        "imagen": "./img/Pudin.jpg"
+      },
+      {
+        "nombre": "Flan",
+        "descripcion": "Flan cremoso con sabor a vainilla.",
+        "precio": "2.5",
+        "imagen": "./img/Flan.jpg"
+      },
+      {
+        "nombre": "Gelatina",
+        "descripcion": "Gelatina sabor frutilla con cobertura de crema Chantilly.",
+        "precio": "1.5",
+        "imagen": "./img/Gelatina.jpg"
+      },
+      {
+        "nombre": "Empanada",
+        "descripcion": "Empanada rellena con queso.",
+        "precio": "1.5",
+        "imagen": "./img/Empanada.jpg"
+      },
+      {
+        "nombre": "Queque de naranja",
+        "descripcion": "Queque esponjoso hecho con jugo de naranja.",
+        "precio": "1.5",
+        "imagen": "./img/Queque.webp"
+      },
+      {
+        "nombre": "Muffin",
+        "descripcion": "Muffin de vainilla esponjoso con cobertura de crema.",
+        "precio": "2",
+        "imagen": "./img/Muffin.jpg"
+      }
+    ]
+  }
+  

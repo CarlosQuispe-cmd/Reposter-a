@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="./css.css">
+  <link rel="icon" href="./img/Logo.ico">
+</head>
+<body>
+  <div class="header">
+    <a href="index.html" class="logo">
+      <img src="./img/Logo.png"  alt="Cafetería"> <span class="titulo"></span>   
+    </a>
+    <div class="header-right">
+      <a href="./inicio.html">Inicio</a>
+      <a class="productos"class="active" href="index.html">Nuestros Productos</a>
+      <a href="./contactenos.html">Contáctanos</a>
+      <!-- Ícono del carrito -->
+      <a href="#" id="cart-icon">
+        <span class="iconify" data-icon="mdi:cart-outline" style="font-size: 36px;"></span>
+        <span id="cart-count">0</span>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Contenedor del Carrito -->
+  <!-- HTML -->
+  <div id="cart-container" class="cart-hidden">
+    <button id="cart-close-btn" class="cart-close-btn">×</button>
+    <h2>Carrito de Compras</h2>
+    <ul id="cart-items"></ul>
+    <div class="cart-footer">
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="checkout-btn">Finalizar Compra</button>
+    </div>
+  </div>
+  
+  
+    <!-- Main Content -->
+    <main>
+      <div class="content-two" id="aboutme">
+        <h1 class="title-one">Nuestros <span>Productos</span></h1>
+        <p><strong>Disfrute de nuestra gran variedad de productos en reposteria.</strong></p>
+        <br>
+      </div>
+      <h2 class="cata">Revisa nuestro catalogo de postres.</h2>
+      <div class="content-three" id="products-container">
+        
+      </div>
+  
+  
+    <!-- Footer -->
+    <footer>
+      <div class="f-detalles">
+        <p>Reposteria L.Q. | REPOSTERIA</p>
+        <p>© Reposteria L.Q. S.R.L. | Todos los derechos reservados.</p>
+      </div>
+      <div class="dydfjhs">
+        <p>Desarrollada por: Carlos Ricardo</p>
+      </div>
+    </footer>
+  
+    <script src="./js.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+</html>
